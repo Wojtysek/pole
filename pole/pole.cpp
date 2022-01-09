@@ -5,13 +5,13 @@ int main(void) {
 
 	int cisla[] = { 3, 8, 26, 44 };
 
-	//pole ma velikost 4 prvky,tj. index 0 až 3
+	//pole ma velikost 4 prvky,tj. index 0 až 3:
 	for (int i = 0; i < sizeof(cisla) / sizeof(int); i++) {
 		printf("index: %d,  hodnota: %d\n", i, cisla[i]);
 	}
 	printf("\n");
-	//nahodna cisla + omezení do 100
 
+	//nahodna cisla + omezení do 100:
 	int nahodna[POCET];
 	long int soucet = 0; //kdyz pricitame na zacatku je 0
 	int min = 2147483647, max = 0;
